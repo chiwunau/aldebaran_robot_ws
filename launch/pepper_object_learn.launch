@@ -1,0 +1,6 @@
+<launch>
+  <node name="pepper_learn" pkg="aldebaran_robot_ws"
+        type="object_learner" >
+    <remap from="/image_raw" to="/top/camera/image_raw" />
+  </node>
+</launch>
